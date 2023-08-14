@@ -1,0 +1,24 @@
+document.querySelector(".men").addEventListener("click",function()
+{
+    document.querySelector(".men-contents").classList.toggle("deactive");
+});
+document.querySelector(".wmn").addEventListener("click",function()
+{
+    document.querySelector(".women-contents").classList.toggle("deactive");
+});
+document.querySelector(".kids").addEventListener("click",function()
+{
+    document.querySelector(".kids-contents").classList.toggle("deactive");
+});
+document.querySelector(".hm_lvng").addEventListener("click",function()
+{
+    document.querySelector(".hm_lvng-content").classList.toggle("deactive");
+});
+document.querySelector(".buty").addEventListener("click",function()
+{
+    document.querySelector(".beauty-content").classList.toggle("deactive");
+});
+document.querySelector(".stdio").addEventListener("click",function()
+{
+    document.querySelector(".studio-content").classList.toggle("deactive");
+});
